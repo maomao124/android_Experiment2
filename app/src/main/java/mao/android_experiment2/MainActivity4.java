@@ -27,7 +27,7 @@ public class MainActivity4 extends AppCompatActivity
                 int year = datePicker.getYear();
                 int month = datePicker.getMonth();
                 int dayOfMonth = datePicker.getDayOfMonth();
-                String s = "XXX – Selected Date: " + year + "/" + month + "/" + dayOfMonth;
+                String s = "201913030234 – Selected Date: " + year + "/" + month + "/" + dayOfMonth;
                 textView.setText(s);
             }
         });
