@@ -22,7 +22,7 @@ public class MainActivity3 extends AppCompatActivity
             public void onClick(View v)
             {
                new AlertDialog.Builder(MainActivity3.this)
-                        .setMessage("Are you sure you want to exit 234")
+                        .setMessage("Are you sure you want to exit 201913030234")
                         .setPositiveButton("yes", new DialogInterface.OnClickListener()
                         {
                             @Override
