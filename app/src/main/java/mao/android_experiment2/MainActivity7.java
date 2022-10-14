@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity7 extends AppCompatActivity
 {
@@ -23,7 +24,15 @@ public class MainActivity7 extends AppCompatActivity
 
         createNotificationChannel("1", "message");
 
-        sendBaseNotification("1", 1, "hello", "Welcome! My Student Number is: 234");
+
+        findViewById(R.id.Button).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                sendBaseNotification("1", 1, "hello", "Welcome! My Student Number is: 234");
+            }
+        });
     }
 
 

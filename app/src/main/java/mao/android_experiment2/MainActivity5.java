@@ -29,7 +29,7 @@ public class MainActivity5 extends AppCompatActivity
             {
                 int hour = timePicker.getHour();
                 int minute = timePicker.getMinute();
-                String s = "XXX – Selected Time: " + hour + "/" + minute + "/";
+                String s = "234 – Selected Time: " + hour + ":" + minute + "";
                 textView.setText(s);
             }
         });
